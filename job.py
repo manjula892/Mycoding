@@ -3,7 +3,7 @@ from twilio.rest import Client
 acc_STD="AC6846f8d49e1d90b506e919335f5da165"
 auth_token="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 client=Client(acc_STD,auth_token)
-students=["whatsapp:+xxxxxxxxxx","whatsapp:+91xxxxxxxxx"]
+students=["whatsapp:+91xxxxxxxxx","whatsapp:+91xxxxxxxxx"]
 url="https://remoteok.com/api"
 jobs=requests.get(url).json()
 for job in jobs:
